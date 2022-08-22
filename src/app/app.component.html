@@ -1,4 +1,14 @@
-<app-nova-transferencia
-></app-nova-transferencia>
+<header>
+  <div>
+    <h3>Bytebank</h3>
+  </div>
+  <div>
+    <a routerLink="extrato" routerLinkActive="ativo">Extrato</a>
+    <a routerLink="nova-transferencia" routerLinkActive="ativo">Transferencia</a>
+  </div>
+</header>
+<main>
+  <router-outlet></router-outlet>
+</main>
 
-<app-extrato></app-extrato>
+<!-- routerlinkactive -> vai mudar o css quando estiver ativo -->

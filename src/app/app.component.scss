@@ -1,0 +1,25 @@
+header {
+  background-color: var(--primary);
+  padding: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+    margin-left:20px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .ativo {
+    display: none;
+  }
+}
+
+main {
+  background-color: #fcfcfc;
+  padding: var(--padding);
+}
