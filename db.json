@@ -1,0 +1,16 @@
+{
+  "transferencias": [
+    {
+      "id": 1,
+      "valor": 50,
+      "destino": "Maria",
+      "data": "2020-11-06T21:34:17.155Z"
+    },
+    {
+      "valor": 20,
+      "destino": "Marta",
+      "data": "2022-08-22T12:49:34.626Z",
+      "id": 2
+    }
+  ]
+}
